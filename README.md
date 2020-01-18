@@ -16,7 +16,7 @@
 
 * Confirm successful **Load** by querying database.
 
-* Join the two tables and select the `id` and `premise_name` from the `premise` table anCreate a `customer_db` database in pgAdmin 4 then create the following two tables within:
+* ----Join the two tables and select the `id` and `premise_name` from the `premise` table anCreate a `customer_db` database in pgAdmin 4 then create the following two tables within:
 
   * A `premise` table that contains the columns `id`, `premise_name` and `county_id`.
 
@@ -24,26 +24,27 @@
 
   * Be sure to assign a primary key, as Pandas will not be able to do so.
 
-* In Jupyter Notebook perform all ETL.
+* ---------In Jupyter Notebook perform all ETL.
 
 * **Extraction**
 
-  * Put each CSV into a pandas DataFrame.
+  * We downloaded the baseball.csv from Kaggle and then loaded it into our pandas dataframe.
+  * We...... loaded it into our pandas dataframe
 
 * **Transform**
 
-  * Copy only the columns needed into a new DataFrame.
+  * We created a MLB the columns TM, Year and Attendance from the baseball csv and renamed the.
 
   * Rename columns to fit the tables created in the database.
 
-  * Handle any duplicates. **HINT:** some locations have the same name but each license number is unique.
+  * ----Handle any duplicates. **HINT:** some locations have the same name but each license number is unique.
 
-  * Set index to the previously created primary key.
+  * -----Set index to the previously created primary key.
 
 * **Load**
 
-  * Create a connection to database.
+  * ---Create a connection to database.
 
-  * Check for a successful connection to the database and confirm that the tables have been created.
-d `county_name` from the `county` table.
+  * ---Check for a successful connection to the database and confirm that the tables have been created.
+d `---county_name` from the `county` table.
 
