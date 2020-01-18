@@ -3,7 +3,10 @@
 
 ### Rescources - 
 MLB API  - http://lookup-service-prod.mlb.com
-Kaggle dataset - https://www.kaggle.com/timschutzyang/dataset1#baseballdata.csv
+Kaggle dataset -https://www.kaggle.com/timschutzyang/dataset1#baseballdata.csv
+
+
+-rough outline joining baseballdata.csv from kaggle with api data set
 
  
  
