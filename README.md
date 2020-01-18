@@ -2,9 +2,13 @@
 ## ETL Report
 
 ### Rescources - 
-mlb - api ....
+MLB API  - http://lookup-service-prod.mlb.com
+Kaggle dataset - https://www.kaggle.com/timschutzyang/dataset1#baseballdata.csv
 
  
+ 
+ 
+ Rough stuff
   * Append DataFrames to tables. Be sure to use the index set earlier.
 
 * Confirm successful **Load** by querying database.
