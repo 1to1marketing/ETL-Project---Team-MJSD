@@ -1,9 +1,9 @@
 
 ## ETL Report
 
-### Rescources - 
-MLB API  - http://lookup-service-prod.mlb.com
-Kaggle dataset -https://www.kaggle.com/timschutzyang/dataset1#baseballdata.csv
+### Resources - 
+* MLB API  - http://lookup-service-prod.mlb.com
+* Kaggle dataset - kaggle.com/timschutzyang/dataset1#baseballdata.csv
 
 
 -rough outline joining baseballdata.csv from kaggle with api data set
@@ -46,3 +46,4 @@ Kaggle dataset -https://www.kaggle.com/timschutzyang/dataset1#baseballdata.csv
 
   * Check for a successful connection to the database and confirm that the tables have been created.
 d `county_name` from the `county` table.
+
