@@ -1,13 +1,15 @@
 
 ## ETL Report
 
-### Instructions
+### Rescources - 
+mlb - api ....
 
+ 
+  * Append DataFrames to tables. Be sure to use the index set earlier.
 
-Rescources - 
-mlb - api 
+* Confirm successful **Load** by querying database.
 
-* Create a `customer_db` database in pgAdmin 4 then create the following two tables within:
+* Join the two tables and select the `id` and `premise_name` from the `premise` table anCreate a `customer_db` database in pgAdmin 4 then create the following two tables within:
 
   * A `premise` table that contains the columns `id`, `premise_name` and `county_id`.
 
@@ -36,9 +38,4 @@ mlb - api
   * Create a connection to database.
 
   * Check for a successful connection to the database and confirm that the tables have been created.
-
-  * Append DataFrames to tables. Be sure to use the index set earlier.
-
-* Confirm successful **Load** by querying database.
-
-* Join the two tables and select the `id` and `premise_name` from the `premise` table and `county_name` from the `county` table.
+d `county_name` from the `county` table.
