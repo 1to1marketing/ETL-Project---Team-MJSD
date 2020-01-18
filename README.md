@@ -2,7 +2,7 @@
 ## ETL Report
 
 ### Rescources - 
-MLB API  - http://lookup-service-prod.mlb.com
+*MLB API  - http://lookup-service-prod.mlb.com
 Kaggle dataset - https://www.kaggle.com/timschutzyang/dataset1#baseballdata.csv
 
  
