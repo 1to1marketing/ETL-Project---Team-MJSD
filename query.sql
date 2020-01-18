@@ -3,8 +3,8 @@ SELECT * FROM Kaggle_CSV;
 
 SELECT * FROM MLB_API;
 
--- Join tables on county_id
-SELECT premise.id, premise.premise_name, county.county_name
-FROM premise
-INNER JOIN county
-ON premise.county_id = county.county_id;
+-- Join tables on team_name
+SELECT Kaggle_CSV.id, Kaggle_CSV.year, Kaggle_CSV.attendance, MLB_API.city, MLB_API.venue
+FROM Kaggle_CSV
+INNER JOIN team_name
+ON Kaggle_CSV.team_name = MLB_API.team_name;
