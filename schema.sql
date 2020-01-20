@@ -7,7 +7,7 @@ CREATE TABLE Kaggle_CSV (
 );
 
 CREATE TABLE MLB_API (
-  id INT PRIMARY KEY,
+  id serial PRIMARY KEY,
   team_name TEXT,
   city TEXT,
   venue TEXT,
