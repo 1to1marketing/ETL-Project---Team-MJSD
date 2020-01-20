@@ -4,7 +4,8 @@ SELECT * FROM Kaggle_CSV;
 SELECT * FROM MLB_API;
 
 -- Join tables on team_name
-SELECT Kaggle_CSV.id, Kaggle_CSV.year, Kaggle_CSV.attendance, MLB_API.city, MLB_API.venue
+SELECT Kaggle_CSV.id, Kaggle_CSV.year, Kaggle_CSV.attendance, Kaggle_CSV.team_name, 
+MLB_API.city, MLB_API.venue
 FROM Kaggle_CSV
-INNER JOIN team_name
+INNER JOIN MLB_API
 ON Kaggle_CSV.team_name = MLB_API.team_name;
